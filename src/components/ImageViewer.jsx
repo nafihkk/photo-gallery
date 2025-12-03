@@ -1,3 +1,5 @@
+import React from 'react';
+
 const ImageViewer = ({ src, onClose }) => {
   return (
     <div className="viewer-overlay" onClick={onClose}>

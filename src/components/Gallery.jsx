@@ -1,5 +1,6 @@
 import { importOriginalPhotos, importHDPhotos } from "../utils/importPhotos";
 import ImageCard from "./ImageCard";
+import React from 'react';
 
 const Gallery = () => {
   const originals = importOriginalPhotos();

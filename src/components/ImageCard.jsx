@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ImageViewer from "./ImageViewer";
+import React from 'react';
 
 const ImageCard = ({ original, hd }) => {
   const [open, setOpen] = useState(false);
